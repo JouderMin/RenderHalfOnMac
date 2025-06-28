@@ -1,0 +1,11 @@
+modLoader = "javafml"
+loaderVersion = "*"
+license = "GPLv3"
+
+[[mods]]
+displayTest = "IGNORE_SERVER_VERSION"
+modId = "render_half_on_mac"
+version = "1.0.0"
+displayName = "Render Half On Mac"
+authors = "JouderMin"
+description = "Useful when playing on Mac"
