@@ -29,7 +29,7 @@ dependencies {
     mappings("net.fabricmc:yarn:${yarn_mappings}:v2")
     forge("net.minecraftforge:forge:${forge_version}")
 
-    annotationProcessor("io.github.llamalad7:mixinextras-common:${mixinextras_version}")
-    include("io.github.llamalad7:mixinextras-common:${mixinextras_version}")?.let { implementation(it) }
+    annotationProcessor("io.github.llamalad7:mixinextras-common:${mixinextras_version}")?.let { implementation(it) }
+    include("io.github.llamalad7:mixinextras-forge:${mixinextras_version}")?.let { implementation(it) }
 //    forge("net.minecraftforge:forge:${forge_version}")
 }
